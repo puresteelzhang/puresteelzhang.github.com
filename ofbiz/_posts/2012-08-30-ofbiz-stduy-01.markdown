@@ -1,0 +1,8 @@
+---
+layout: post
+title: ofbiz study 01
+---
+
+ofbiz study 01
+
+
