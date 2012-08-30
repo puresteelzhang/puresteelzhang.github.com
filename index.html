@@ -3,14 +3,26 @@ layout: default
 title: Neilzhang Blog
 ---
 
+<header id="overview" class="jumbotron subhead">
+<div class="container">
+<h1>Neilzhang Blog</h1>
+<p class="lead">开源爱好者 ofbiz openerp web开发研究</p>
+</div>
+</header>
 
 
+<div class="container">
 
 <div class="row">
+  <h2>ofbiz</h2>
   <div class="span12">
-   <h3>Neilzhang Blog</h3>
+    <ul class="posts">
+    {% for post in site.categories.ofbiz limit:5 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
   </div>
-  <div class="span12">
-    <h5>开源爱好者 ofbiz openerp web开发研究</h5>
-  </div>
+</div>
+
+
 </div>
