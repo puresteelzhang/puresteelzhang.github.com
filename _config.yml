@@ -1,2 +1,9 @@
 markdown: rdiscount
 pygments: true
+auto: true
+permalink: /:year/:month/:day/:title
+
+host: neilzhang.yoyofind.com
+name: "Neil Zhang Blog"
+disqus_shortname: "Neil Zhang"
+google_analytics: "UA-"
