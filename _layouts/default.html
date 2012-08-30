@@ -12,7 +12,6 @@
     
 	<script src="/js/bootstrap.js"></script>
     <script src="/js/jquery.js"></script>
-    <link rel="stylesheet" href="http://yandex.st/highlightjs/6.1/styles/github.min.css">
     
   </head>
   <body>
@@ -33,23 +32,31 @@
     </div>
 	
       {{ content }}
-
-      <div class="row">
-        <div class="span4">
-          <p>
-          NeilZhang<br />
-          puresteel.zhang@gmail.com
-          </p>
-        </div>
-        <div class="span8">
-          <p>
-          <a href="http://github.com/puresteelzhang">github.com/puresteelzhang</a><br />
-          </p>
-        </div>
-        <div class="span12">
-          <a href="http://{{ site.host }}/atom.xml">订阅全站</a>
-        </div>
-      </div>
+	  
+    <footer class="footer">
+		<div class="container">
+			<p class="pull-right">
+			<a href="#">Back to top</a>
+			</p>
+		<div class="row">
+			<div class="span4">
+			  <p>
+			  NeilZhang<br />
+			  puresteel.zhang@gmail.com
+			  </p>
+			</div>
+			<div class="span8">
+			  <p>
+			  <a href="http://github.com/puresteelzhang">github.com/puresteelzhang</a><br />
+			  </p>
+			</div>
+			<div class="span12">
+			  <a href="http://{{ site.host }}/atom.xml">订阅全站</a>
+			</div>
+			</div>
+		</div>
+	</footer>
+      
     
     
   </body>
