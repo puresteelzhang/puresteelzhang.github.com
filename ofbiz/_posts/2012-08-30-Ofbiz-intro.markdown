@@ -1,6 +1,7 @@
 ﻿---
 layout: post
-title: ofbiz是什么？
+title: ofbiz intro
 ---
+
 
 ofbiz简介
