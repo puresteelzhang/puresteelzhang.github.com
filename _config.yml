@@ -4,6 +4,6 @@ auto: true
 permalink: /:year/:month/:day/:title
 
 host: neilzhang.yoyofind.com
-name: "Neil Zhang Blog"
-disqus_shortname: "Neil Zhang"
+name: "puresteel Zhang Blog"
+disqus_shortname: "puresteel Zhang"
 google_analytics: "UA-"
